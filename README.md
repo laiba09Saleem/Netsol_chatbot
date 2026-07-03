@@ -29,8 +29,9 @@ Live demo: https://netsol-chatbot.vercel.app/
 
 ## Screenshots
 
-- `frontend/src/assets/chatbot1.png` — primary chat interface preview
-- `frontend/src/assets/chatbot2.png` — alternate conversation screen or assistant view
+![Chatbot screen 1](frontend/src/assets/chatbot1.png)
+
+![Chatbot screen 2](frontend/src/assets/chatbot2.png)
 
 ## Setup
 

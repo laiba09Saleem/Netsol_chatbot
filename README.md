@@ -2,6 +2,8 @@
 
 Laiba Chatbot is a full-stack conversational assistant built with a FastAPI backend and a React + Vite frontend. The project delivers a lightweight web interface for chat interactions while using Python services for AI-driven message processing.
 
+Live demo: https://netsol-chatbot.vercel.app/
+
 ## Key Features
 
 - FastAPI backend with CORS support
@@ -22,7 +24,13 @@ Laiba Chatbot is a full-stack conversational assistant built with a FastAPI back
   - `requirements.txt` — Python dependencies
 - `frontend/`
   - `src/` — React application source files and UI components
+  - `assets/` — static images and CSS assets
   - `package.json` — frontend dependencies and scripts
+
+## Screenshots
+
+- `frontend/src/assets/chatbot1.png` — primary chat interface preview
+- `frontend/src/assets/chatbot2.png` — alternate conversation screen or assistant view
 
 ## Setup
 
@@ -59,6 +67,9 @@ Laiba Chatbot is a full-stack conversational assistant built with a FastAPI back
 
 ## Notes
 
-- Ensure the backend is running before using the frontend chat interface.
+- Live frontend demo: https://netsol-chatbot.vercel.app/
+- If the frontend is deployed to Vercel, make sure the backend allows `https://netsol-chatbot.vercel.app` in CORS settings.
+- For the frontend to talk to your deployed backend, set `VITE_API_URL` to your Render backend URL in the Vercel environment variables.
+- Ensure the backend is running before using the frontend chat interface during local development.
 - Update API endpoints or CORS configuration if the frontend or backend are served from a different host or port.
 

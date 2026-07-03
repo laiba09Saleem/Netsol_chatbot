@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* NETSOL Bright Electric Blue theme matching your logo image */
+  --primary-color: #1b75e7;        /* Logo bright blue */
+  --primary-light: #4c9aff;        /* Lighter shade for hover */
+  --primary-dark: #0e5dbf;         /* Darker shade for buttons active state */
+  --bg-gradient: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); /* Premium dark body background */
+  --chat-bg: #f8fafc;
+  --text-primary: #0f172a;
+  --text-secondary: #64748b;
+  --white: #ffffff;
+  --user-bubble-bg: #1b75e7;       /* User message in brand blue */
+  --user-bubble-text: #ffffff;
+  --bot-bubble-bg: #ffffff;
+  --bot-bubble-text: #0f172a;
+  --border-color: #e2e8f0;
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(27, 117, 231, 0.08), 0 2px 4px -1px rgba(27, 117, 231, 0.04);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --border-radius-lg: 16px;
+  --border-radius-md: 12px;
+  --border-radius-sm: 8px;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  background: var(--bg-gradient);
+  color: var(--text-primary);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

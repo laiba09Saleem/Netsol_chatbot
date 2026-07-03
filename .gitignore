@@ -1,0 +1,25 @@
+# Enviroment Variables
+
+.env
+backend/.env
+
+# Python
+venv/
+__pyscache__/
+*.pyc
+*.pyo
+
+# Node / React
+node_modules/
+build/
+
+# VS code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+test_setup.py
+test_graph_nodes.py
+test_graph.py
+test_rag.py
